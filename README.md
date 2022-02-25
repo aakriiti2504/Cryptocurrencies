@@ -32,12 +32,21 @@ The owner wants to predict the best time to start selling school supplies so sta
 
 Unsupervised learning does not take in any pairing of input and outcomes from the data; it only looks at the data as a whole. This can cause some challenges when running the algorithm. Since we won't know the outcome it's predicting, we might not know that the result is correct. This can lead to issues where we're trying to decide if the model has provided any helpful information that we can use to make decisions in the real world. The only way to determine what an unsupervised algorithm did with the data is to go through it manually or create visualizations. Since there will be a manual aspect, unsupervised learning is great for when you want to explore the data.
 
+## What I am Creating
+This new assignment consists of four technical analysis deliverables. You will submit the following:
+
+1. Deliverable 1: Preprocessing the Data for PCA
+2. Deliverable 2: Reducing Data Dimensions Using PCA
+3. Deliverable 3: Clustering Cryptocurrencies Using K-means
+4. Deliverable 4: Visualizing Cryptocurrencies Results
+
+
 ## Tools used 
 1. Scikit-learn library in Python 
 2. Plotly library in Python that is a graphing library that makes interactive, publication-quality charts.
 3. hvPlot visualization library in Python that uses HolovViews and Bokeh
 4. Pandas library in Python used for Data Munging
-5. Dataset used -  https://archive.ics.uci.edu/ml/datasets/iris
+5. Dataset used - crypto_data.csv is retrieved from  https://min-api.cryptocompare.com/data/all/coinlist 
 6. Jupyter Notebook 
 
 ## Steps for preparing Data
@@ -61,6 +70,8 @@ The K-means algorithm groups the data into K clusters, where belonging to a clus
 A centroid is a data point that is the arithmetic mean position of all the points on a cluster:
 ![data-18-3-2-1-five-clusters-with-centroid](https://user-images.githubusercontent.com/23488019/155605523-54d0009f-7499-4d81-bf29-183c888beedc.png)
 The centroid is found by taking the mean of all the x values in a cluster, and the mean of all the y values in a cluster.
+
+
 ## Purpose 
 
 
