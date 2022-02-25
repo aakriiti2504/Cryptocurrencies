@@ -49,6 +49,18 @@ Data selection entails making good choices about which data will be used. Consid
 Data processing involves organizing the data by formatting, cleaning, and sampling it. In our dataset on city weather, if the date column has two different formats—mm-dd-yyyy (e.g., 01-23-1980) and month-data-year (e.g., jan-23-1980)—we would convert all dates to the same format.
 ##### 3. Data transformation
 Data transformation entails transforming our data into a simpler format for storage and future use, such as a CSV, spreadsheet, or database file. Once our weather data is cleaned and processed, we would export the final version of the data as a CSV file for future analysis.
+
+### Clustering and K Means Algorithm 
+Clustering is exactly what we want from unsupervised learning, but exactly how can we determine the clusters? Martha knows she needs to group the cryptocurrency data, but she isn't sure how to determine the number of groups to create. One of the most popular ways to cluster is by using the K-means algorithm.
+K-means is an unsupervised learning algorithm used to identify and solve clustering issues.
+
+K represents how many clusters there will be. These clusters are then determined by the means of all the points that will belong to the cluster.
+
+The K-means algorithm groups the data into K clusters, where belonging to a cluster is based on some similarity or distance measure to a centroid.
+
+A centroid is a data point that is the arithmetic mean position of all the points on a cluster:
+![data-18-3-2-1-five-clusters-with-centroid](https://user-images.githubusercontent.com/23488019/155605523-54d0009f-7499-4d81-bf29-183c888beedc.png)
+The centroid is found by taking the mean of all the x values in a cluster, and the mean of all the y values in a cluster.
 ## Purpose 
 
 
